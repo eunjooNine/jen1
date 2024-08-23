@@ -10,7 +10,7 @@ public class TestController {
 
     @RequestMapping(method = RequestMethod.GET, value = "/test")
     public String test() {
-        return "v4";
+        return "v5";
     }
 
 }
